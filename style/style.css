@@ -16,6 +16,9 @@ section {
   max-width: 1280px;
   margin: 0 auto;
 }
+img {
+  width: 100%;
+}
 /* navigation section added */
 .navigation {
   display: flex;
@@ -47,4 +50,120 @@ section {
   align-items: center;
   cursor: pointer;
 }
-
+.header-section {
+  backdrop-filter: blur(300px);
+  background: rgba(255, 255, 255, 0.85);
+}
+/* hero section css added */
+#hero-section {
+  width: 50%;
+  margin: 4.4rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.hero-section-top {
+  padding: 0.5rem 1rem;
+  background: rgb(146, 244, 174);
+  color: rgb(0, 0, 0);
+  border-radius: 1rem;
+}
+.hero-section-heading {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 4rem;
+  letter-spacing: -2%;
+}
+.hero-section-para {
+  color: rgb(76, 76, 76);
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+}
+.hero-section-button {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.portfolio-btn {
+  padding: 0.8rem 1.5rem;
+  border-radius: 3rem;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+}
+.project-btn {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 1.8rem;
+  padding: 1rem 2rem;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+.hero-img-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+.img-a {
+  width: 290px;
+  object-fit: cover;
+  border-radius: 1.4rem;
+}
+.img-b {
+  width: 458px;
+  object-fit: cover;
+  border-radius: 1.4rem;
+}
+.img-c {
+  width: 272px;
+  object-fit: cover;
+  border-radius: 1.4rem;
+}
+.count-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff;
+    margin-top: 128px;
+  }
+  
+  .count-item {
+    text-align: center;
+  }
+  
+  .count-number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .count-plus {
+    color: #00C853; 
+    font-size: 3rem;
+  }
+  
+  .count-text {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    color: #666; 
+  }
