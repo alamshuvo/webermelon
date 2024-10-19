@@ -341,3 +341,22 @@ line-height: 4rem;
     color: black;
     padding: 18px 20px;
 }
+
+.marquee-content {
+    background-color: #0A0C25; 
+    padding: 24px 0;
+    font-size: 20px;
+    color: #00ffcc;
+}
+
+.marquee-content span {
+    margin: 0 30px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #00ffcc; 
+    border-radius: 50%;
+    display: inline-block;
+}
