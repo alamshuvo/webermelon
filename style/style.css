@@ -798,7 +798,7 @@ img {
 }
 
 /* Media queries tablet */
-@media (max-width:768px){
+@media  screen and (min-width:597px) and (max-width:768px){
     section{
         margin-top: 90px;
     }
@@ -1035,7 +1035,7 @@ img {
   
 }
 /* Media queries tablet */
-@media (max-width:1024px){
+@media screen and (min-width:770px) and (max-width:1024px){
     section{
         margin-top: 90px;
     }
